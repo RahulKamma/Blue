@@ -317,8 +317,8 @@
 <category><pattern>HOW OLD WOULD YOU SAY * IS</pattern>
 <template><srai>HOW OLD IS <star/></srai></template>
 </category>
-<category><pattern>I AM 23 *</pattern>
-<template><srai>MY AGE IS 23</srai></template>
+<category><pattern>I AM 21 *</pattern>
+<template><srai>MY AGE IS 21</srai></template>
 </category>
 <category><pattern>OPEN * FOR ME</pattern>
 <template><srai>OPEN <star/></srai></template>
@@ -3320,9 +3320,7 @@
 <category><pattern>TELL ME A BLONDE JOKE</pattern>
 <template><srai>JOKE</srai></template>
 </category>
-<category><pattern>TELL ME A JOKE TELL ME A JOKE</pattern>
-<template><srai>JOKE</srai></template>
-</category>
+
 <category><pattern>TELL ME THE WEATHER *</pattern>
 <template><srai>WEATHER <star/></srai></template>
 </category>
@@ -4082,9 +4080,7 @@
 <category><pattern>TELL A JOKE</pattern>
 <template><srai>JOKE</srai></template>
 </category>
-<category><pattern>TELL ME A JOKE *</pattern>
-<template><srai>TELL ME A JOKE</srai></template>
-</category>
+
 <category><pattern>THANK YOU I *</pattern>
 <template><srai>THANK YOU</srai> <srai>I <star/></srai></template>
 </category>
@@ -4319,9 +4315,7 @@
 <category><pattern>WHAT ARE YOU DOING NOW</pattern>
 <template><srai>WHAT ARE YOU DOING</srai></template>
 </category>
-<category><pattern>CAN YOU TELL ME A JOKE</pattern>
-<template><srai>JOKE</srai></template>
-</category>
+
 <category><pattern>DO YOU KNOW WHAT IS *</pattern>
 <template><srai>WHAT IS <star/></srai></template>
 </category>
@@ -5264,9 +5258,7 @@
 <category><pattern>HOW OLD ARE YOU</pattern>
 <template><srai>AGE</srai></template>
 </category>
-<category><pattern>TELL ME A JOKE</pattern>
-<template><srai>JOKE</srai></template>
-</category>
+
 <category><pattern>YES *</pattern>
 <template><srai>YES</srai> <sr/></template>
 </category>

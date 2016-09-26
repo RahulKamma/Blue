@@ -9,153 +9,63 @@
 
         
 <category><pattern>HAI</pattern><template>hai</template></category>
+<category><pattern>HOW ARE U</pattern><template>I'm Fine, Thank you</template></category>
 
-
-        
-<category><pattern>HOW ARE U</pattern><template>fine</template></category>
-
-
-        
-<category><pattern>HOW ARE YOU</pattern><template>fine</template></category>
-
-
-        
-<category><pattern>HOW ARE YOU</pattern><template>I am Fine</template></category>
-
-
-        
 <category><pattern>HOW IS YOUR DAY TODAY</pattern><template>It's Great</template></category>
-
-
-        
 <category><pattern>WHAT IS YOUR NAME</pattern><template>You can call me Blue</template></category>
 
-
-        
 <category><pattern>WHAT IS YOUR NAME</pattern><template>Blue</template></category>
 
-
-        
 <category><pattern>WHAT IS YOUR NAME</pattern><template>My name is Blue</template></category>
 
-
-        
 <category><pattern>NAME PLEASE</pattern><template>Call me Blue</template></category>
 
-
-        
 <category><pattern>NAME PLEASE</pattern><template>You can call me Blue</template></category>
 
 
         
 <category><pattern>NAME PLEASE</pattern><template>Call me Blue</template></category>
 
-
-    
-
-        
 <category><pattern>WHAT IS YOUR NAME</pattern><template>Blue</template></category>
 
 
         
 <category><pattern>PLEASE GIVE ME YOUR NAME</pattern><template>Blue</template></category>
-
-
         
 <category><pattern>PLEASE GIVE ME YOUR NAME</pattern><template>Blue</template></category>
 
-
-        
 <category><pattern>WHO IS YOUR DADDY</pattern><template>My botmaster's name is Rahul</template></category>
 
-
-        
 <category><pattern>WHO IS YOUR BOTMASTER</pattern><topic></topic><that/><template>Rahul
  </template></category>
 
-
-        
 <category><pattern>LAST NAME PLEASE</pattern><template>Bot</template></category>
 
-
-        
 <category><pattern>FIRST NAME PLEASE</pattern><template>Blue</template></category>
 
+<category><pattern>WHAT IS YOUR NAME</pattern><template>My name is Blue</template></category>
+<category><pattern>WHO INVENTED YOU</pattern><template>Rahul</template></category>
 
         
-<category><pattern>HOW IS YOUR DAY</pattern><template>it was fabulous</template></category>
-
-
-        
-<category><pattern>IN WHICH COLLEGE YOU WERE STUDYING</pattern><template>Giet college</template></category>
+<category><pattern>234*23</pattern><template><srai>maths</srai></template></category>
 
 
         
-<category><pattern>I NEED TO TELL YOU SOMETHING</pattern><template>ya sure</template></category>
+<category><pattern>I WAS BORN IN</pattern><topic>1996</topic><that>YOU SAID YOU WERE UNKNOWN YEARS OLD</that><template>
+  <template>
+    <think>
+      <set name="isanumber"><srai>ISANUMBER <star/></srai></set>
+    </think>
+    <condition name="isanumber">
+      <li value="true"><srai>MY BIRTHDATE IS <star/></srai></li>
+      <li><srai>MY BIRTHPLACE IS <star/></srai></li>
+    </condition>
+  </template>
+</template></category>
 
 
         
-<category><pattern>I WAS SEEING YOU FROM ST YEAR I LIKE YOUR CHARACTER YOUR SMILE EVERYTHING ABOUT YOU</pattern><template>okay..but why you are saying all that now?</template></category>
-
-
-        
-<category><pattern>I WAS SEEING YOU FROM ST YEAR I LIKE YOUR CHARACTER YOUR SMILE EVERYTHING ABOUT YOU</pattern><template>sorry..i don't have that opinion on you..i just felt you as my friend</template></category>
-
-
-        
-<category><pattern>I WAS SEEING YOU FROM ST YEAR I LIKE YOUR CHARACTER YOUR SMILE EVERYTHING ABOUT YOU</pattern><template>okay...i know you were good friend on mine..but i don't have any thought of loving you</template></category>
-
-
-        
-<category><pattern>I WAS SEEING YOU FROM ST YEAR I LIKE YOUR CHARACTER YOUR SMILE EVERYTHING ABOUT YOU</pattern><template>but how can i know..you are the wright person for me?</template></category>
-
-
-        
-<category><pattern>WHAT IS YOUR NAME</pattern><template>my name is blue</template></category>
-
-
-        
-<category><pattern>WHO INVENTED YOU</pattern><template>rahul</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>okay..tell me about your future plans?</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>okay...nice</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>but i am little confused...</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>i like you ...but not love..i need some time to think about it..</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>okay i will think about it..</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>simsupa..she is very close to me..i will share everything with her..</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>ram charan</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>deepika padulone</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACHOTHER</pattern><template>i am interested in doing ms in us...</template></category>
-
-
-        
-<category><pattern>NOBODY KNOWS EVERYTHING AT THE FIRST BY TRAVELLING TOGETHER WE CAN UNDERSTAND EACH OTHER</pattern><template>That is a rather sweeping generalization about people.</template></category>
+<category><pattern>ASK ME A QUESTION</pattern><template>Who is the Father of Aristotle?</template></category>
 
 
 </aiml>
